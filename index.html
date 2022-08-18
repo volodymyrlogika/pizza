@@ -1,0 +1,397 @@
+<html>
+    <head>
+        <title>PIZZA</title>
+        <style>
+          html{
+zoom: 100%; 
+}
+body{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #575757;
+}
+ 
+header{
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    background: #FFC700;
+    display: flex;
+    align-items: center;
+}
+ 
+nav{
+    position: absolute;
+    width: 50%;
+    left: 358px;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+ 
+.nav-link:first-child{
+    font-weight: 700;  
+    color: #FFFFFF;
+}
+ 
+.nav-link:hover:first-child{
+    color: #1E1E1E;
+}
+ 
+.nav-link:hover{
+    font-weight: 700;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+ 
+.logo{
+    position: absolute;
+    width: 15%;
+    left: 88px;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+ 
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+ 
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+.info-img{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+}
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+.info-div h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #575757;
+}
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575757;
+    width: 90%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+.menu-butt{
+   background: #FFFFFF;
+    border: 1px solid #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFC700;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+   
+}
+.menu-butt:hover{
+    background: #FFC700;
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+ 
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+}
+.menu-img{
+    width: 30%;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+   
+}
+.menu-info h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFC700;
+}
+.menu-text{
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E1E1E;
+}
+ 
+.sallary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FF6B00;
+}
+.order{
+    background: #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+   
+}
+.order:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+ 
+.sale{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+   
+}
+.sale-div{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+   
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+}
+.about-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://drive.google.com/uc?export=view&id=13FAIBGrGspx6IrP176yyc6xA_ui_eYmp);
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 40%;
+    height: 273px;
+    left: 87px;
+    top: 187px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+ 
+}
+ 
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: #FFC700;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+ 
+    color: #575757;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top:15%;
+    width: 15%;
+}
+
+      </style> 
+    </head>
+    <body>
+        <header>
+        <h1 class="logo"> PIZZA</h1>
+        <nav>
+            <a class="nav-link" href="">Головна</a>
+            <a class="nav-link" href="">Меню</a>
+            <a class="nav-link" href="">Акції</a>
+            <a class="nav-link" href="">Про нас</a>
+            <a class="nav-link" href="">Контакти</a>
+        </nav>
+        </header>
+        <main>
+            <section class="info">
+               <div class="info-div">
+                   <h1>Піцерія</h1>
+                   <p>Знаєш що замовити, натискай на кнопку і ми тобі зателефонуємо. Або переходь до меню
+                   </p>
+                <article class="info-butt">
+                    <a class="call-butt" href="">Дзвінок</a>
+                    <a class="menu-butt" href="">Меню</a>
+                </article>
+               </div>
+               <img class="info-img" src="https://drive.google.com/uc?export=view&id=1_tJ3tgZ7Vpkjq1qge0HtI93I7Y6GhoNT">
+            </section>
+ 
+            <section class="menu">
+                <h2>Меню</h2>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://drive.google.com/uc?export=view&id=1UZoM8KwhV68SzybrVZENqqQlbIe_l-7O">
+                    <article class="menu-info">
+                        <h3>Папероні</h3>
+                        <p class="menu-text">Перетертые томаты, моцарелла, салями пикантная пепперони </p>
+                        <p class="sallary">180 грн </p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://drive.google.com/uc?export=view&id=15whx6OiXjJZK2m_nGyp6VMfs9qUoqQAO">
+                     <article class="menu-info">
+                        <h3>Чотири сезони</h3>
+                        <p class="menu-text">Перетерті томати, моцарелла, прошутто котто, артишоки, свіжі печериці, салямі Мілано. </p>
+                        <p class="sallary">210 грн </p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+                <div class="menu-div">
+                    <img class="menu-img" src="https://drive.google.com/uc?export=view&id=1TrTmkajhxixF9S6a_xzJcxTGFXQfuaKR">
+                     <article class="menu-info">
+                        <h3>Лосось</h3>
+                        <p class="menu-text"> Тісто з цільнозернового борошна, моцарелла, рікотта, прошутто котто, орегано, базилік та мигдалеві пластівці. </p>
+                        <p class="sallary"> 250 грн</p>
+                        <a class="order" href="">Замовити</a>
+                    </article>
+                </div>
+            </section>
+            <section class="sale">
+                <h2>Акції</h2>
+                <div class="sale-div">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1ZGkuRyjz5HVsdMQAlVKvg4slCM33cBvT">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1DppdkXkvnOZgMlCgRgPquJsM3HPojL6P">
+                    <img class="sale-img" src="https://drive.google.com/uc?export=view&id=1oDDtVWW3LX70mBrAyDhWBtr9GqX3a0Vk">
+                </div>
+            </section>
+             <section class="about">
+                <h2>Про нас</h2>
+                <div class="about-div">
+                    <p>В Італії розуміються на справжній піці і випікають її тільки в автентичній дров'яній печі. І ми в il Molino повністю дотримуємося рецептури традиційних італійських піцерій. Усередині така піч воістину «пашить жаром», щоб забезпечити рівномірне випікання: температура її надрах сягає близько 400 градусів. І тому на правильній, «живій» італійській піці неминучі невеликі пригорілості – потемнілі борти або запечені «бульбашки». </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+           <div class="footer-info">
+               <h4>+38(099) - 55 - 33-456</h4>
+               <p>місто Львів</p>
+               <p>вул. Богдана Хмельницького 14</p>
+               <img class="footer-img" src="https://drive.google.com/uc?export=view&id=1l5JjeUTTctS5bvyWWrCPOUcB-GaCZm3b">
+               <img class="footer-img" src="https://drive.google.com/uc?export=view&id=1uesqOjX7FlRJlbVxVntIcwKf30o7uAli">
+           </div>
+            <img class="logo-img" src="https://drive.google.com/uc?export=view&id=16itB_AFG_q0AnMqdRpLMwVKRStYmZ46w">
+        </footer>
+    </body>
+</html>
+ 
+
